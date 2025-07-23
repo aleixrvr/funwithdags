@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Fun With DAGs"
+  author: "Aleix Ruiz de Villa"
+  sidebar: 
+    background: "#F5F5F5"
+    search: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: custom.css
+    backgroundcolor: "#F5F5F5"
+  pdf:
+    documentclass: scrreprt
+
+
+
