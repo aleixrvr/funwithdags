@@ -4,19 +4,19 @@
     "href": "index.html",
     "title": "Fun With DAGs",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "What is this about\nThis is the companion to the FunWithDAGs Youtube channel. Here you will find more complete explanations for each one of the videos.\n\n\nCausal Inference for Data Science Book\nYou can find my book “Causal Inference for Data Science” [here]https://www.manning.com/books/causal-inference-for-data-science.",
     "crumbs": [
-      "Preface"
+      "What is this about"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "1  Adjustment Formula",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "The adjustment formula is\n\\[P(Y=1|do(X:=1)) = \\sum_z P(Y=1|X=1, Z=z)P(Z)\\]\nSee Pearl (2000) for additional discussion of literate programming.\n\n\n\n\nPearl, Judea. 2000. Causality: Models, Reasoning, and Inference. Cambridge University Press.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Adjustment Formula</span>"
     ]
   },
   {
@@ -34,7 +34,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Pearl, Judea. 2000. Causality: Models, Reasoning, and\nInference. Cambridge University Press.",
     "crumbs": [
       "References"
     ]

@@ -1,5 +1,10 @@
-# Preface {.unnumbered}
+# What is this about {.unnumbered}
 
-This is a Quarto book.
+This is the companion to the FunWithDAGs Youtube channel. Here you will find more complete explanations for each one of the videos.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+# Causal Inference for Data Science Book 
+
+You can find my book "Causal Inference for Data Science" [here]<https://www.manning.com/books/causal-inference-for-data-science>.
+
+
+{{< video https://www.youtube.com/watch?v=AOaZ15TBPTc >}}

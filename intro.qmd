@@ -1,5 +1,7 @@
-# Introduction
+# Adjustment Formula
 
-This is a book created from markdown and executable code.
+The adjustment formula is 
 
-See @knuth84 for additional discussion of literate programming.
+$$P(Y=1|do(X:=1)) = \sum_z P(Y=1|X=1, Z=z)P(Z)$$
+
+See @Pearl_00 for additional discussion of literate programming.
